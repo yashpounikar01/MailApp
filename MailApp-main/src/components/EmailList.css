@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    width: 0.15em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7a7d89;
+}
+.email-count{
+    font-size: 20px;
+    /* background-color: aqua; */
+}
+/* Ensure the container has relative positioning */
+.relative-container {
+    position: relative;
+  }
+  
+  /* Dropdown menu styles */
+  .dropdown-menu {
+    position: absolute;
+    top: 50%; /* Position it right below the parent container */
+    right: -50; /* Align it to the right edge of the parent container */
+    margin-top: 8px; /* Space between the caret icon and dropdown */
+    background-color: #1a1a1a; /* Dark background for the dropdown */
+    color: #fff; /* White text color */
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  /* Styling for each item in the dropdown */
+  .dropdown-menu div {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu div:hover {
+    background-color: #333; /* Highlight color on hover */
+  }
+  

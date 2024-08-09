@@ -1,0 +1,30 @@
+.email-details-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #333; /* example color, replace with your actual color */
+    width: 100%; /* Adjust according to your layout */
+    height: 100%; /* Ensure it takes full height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+  }
+  
+  .email-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px; /* Add some space below */
+    border-bottom: 1px solid #444; /* Add a border to separate header */
+  }
+  
+  .email-body {
+    padding-top: 20px; /* Add some space on top */
+    overflow-wrap: break-word; /* Ensure long words break properly */
+  }
+  
+  .email-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px; /* Add some space above */
+  }
+  
